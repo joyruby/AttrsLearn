@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="skin.example.com.attrslearn.MainActivity">
+
+    <skin.example.com.attrslearn.view.AttrTextView1
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text1="attr1"
+        app:textColor="@color/colorPrimaryDark"
+        app:textSize="10dp"/>
+    <skin.example.com.attrslearn.view.AttrTextView2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text1="attr1"
+        app:textColor="@color/colorPrimaryDark"
+        app:textSize="10dp"/>
+    <skin.example.com.attrslearn.view.AttrTextView3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text1="attr1"
+        app:textColor="@color/colorPrimaryDark"
+        app:textSize="10dp"/>
+    <skin.example.com.attrslearn.view.AttrTextView4
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text1="attr1"
+        app:textColor="@color/colorPrimaryDark"
+        app:textSize="10dp"/>
+    <TextView
+        style="@style/AttrStyleStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        style="?attr/attr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
